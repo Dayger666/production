@@ -1,0 +1,12 @@
+@import 'config';
+
+.input{
+  background-color: $input_grey;
+  border: none;
+  display: block;
+  padding: 15px;
+  &:focus{
+    background-color: #ddd;
+    outline: none;
+  }
+}

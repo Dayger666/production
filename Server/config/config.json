@@ -1,0 +1,14 @@
+{
+    "development": {
+    "PORT": 2999,
+        "MONGODB_URI": "mongodb+srv://Dayger666:dima05191@cluster0-1wer5.mongodb.net/test2?retryWrites=true&w=majority",
+        "JWT_SECRET": "SECRET#123",
+        "JWT_EXP": "720m"
+},
+    "production": {
+    "PORT": 80,
+        "MONGODB_URI": "mongodb://xxxxx/DB_Name",
+        "JWT_SECRET": "itransition",
+        "JWT_EXP": "10m"
+}
+}

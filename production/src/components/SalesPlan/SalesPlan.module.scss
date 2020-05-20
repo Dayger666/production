@@ -1,0 +1,14 @@
+@import '../../common styles/table';
+@import '../../common styles/button';
+
+
+td, th {
+  padding: 8px 50px;
+}
+
+.btn{
+  margin-top: 20px;
+  @extend .btn_green;
+  margin-left: 20px;
+  float: right;
+}

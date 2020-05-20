@@ -1,0 +1,35 @@
+.formControl.error input,
+.formControl.error textarea,
+.formControl.error select{
+    border: 1.5px red solid;
+}
+
+.formControl.error input:focus,
+.formControl.error textarea:focus {
+    outline: none;
+}
+
+.formControl {
+    position: relative;
+}
+
+.formControl.error div {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.error_message {
+    color: red;
+    font-size: .8rem;
+    position: absolute;
+    word-wrap: break-word;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 89%;
+    z-index: 10;
+}
+
+

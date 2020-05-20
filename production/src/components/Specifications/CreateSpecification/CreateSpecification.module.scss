@@ -1,0 +1,35 @@
+@import '../../../common styles/button';
+@import '../../../common styles/input';
+
+.spec_container{
+  .steps{
+   width: 102%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  width: 45%;
+  margin: 20px;
+  h3{
+    margin-top: 0;
+  }
+  button{
+    width: 102%;
+    margin-top: 15px;
+  }
+  input{
+    @extend .input;
+    width: 97.5%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  select {
+    @extend .input;
+    width: 102%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    option{
+      padding: 15px;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+@import '../../../common styles/table';
+@import '../../../common styles/button';
+@import '../../../common styles/input';
+
+.changeStatus{
+  display: flex;
+  flex-direction: column;
+  height: 220px;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: solid grey;
+  padding: 20px;
+  border-radius: 10px;
+  h3{
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+  select {
+    @extend .input;
+    display: block;
+  }
+  .btn_green{
+    margin: 0 20px 20px;
+  }
+  .btn_blue{
+    margin: 20px;
+  }
+}

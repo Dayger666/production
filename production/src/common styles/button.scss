@@ -1,0 +1,26 @@
+@import 'config';
+
+@mixin btn($fc, $lc){
+  background-color: $fc;
+  border: none;
+  color: white;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  &:hover{
+    background-color:  $lc;
+  }
+  &:active{
+    outline: none;
+  }
+  &:focus{
+    outline: none;
+  }
+}
+
+.btn_green{
+  @include btn($green, $dark_green)
+}
+
+.btn_blue{
+  @include btn($blue, $dark_blue);
+}

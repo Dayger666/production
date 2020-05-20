@@ -1,0 +1,59 @@
+.btn_green {
+  background-color: #28a745;
+  border: none;
+  color: white;
+  padding: .5rem 1rem;
+  border-radius: .5rem; }
+  .btn_green:hover {
+    background-color: #218838; }
+  .btn_green:active {
+    outline: none; }
+  .btn_green:focus {
+    outline: none; }
+
+.btn_blue {
+  background-color: #17a2b8;
+  border: none;
+  color: white;
+  padding: .5rem 1rem;
+  border-radius: .5rem; }
+  .btn_blue:hover {
+    background-color: #0069D9; }
+  .btn_blue:active {
+    outline: none; }
+  .btn_blue:focus {
+    outline: none; }
+
+.input, .spec_container input, .spec_container select {
+  background-color: #F1F1F1;
+  border: none;
+  display: block;
+  padding: 15px; }
+  .input:focus, .spec_container input:focus, .spec_container select:focus {
+    background-color: #ddd;
+    outline: none; }
+
+.spec_container {
+  width: 45%;
+  margin: 20px; }
+  .spec_container .steps {
+    width: 102%;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+  .spec_container h3 {
+    margin-top: 0; }
+  .spec_container button {
+    width: 102%;
+    margin-top: 15px; }
+  .spec_container input {
+    width: 97.5%;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+  .spec_container select {
+    width: 102%;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+    .spec_container select option {
+      padding: 15px; }
+
+/*# sourceMappingURL=CreateSpecification.module.css.map */
